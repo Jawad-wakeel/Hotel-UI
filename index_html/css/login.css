@@ -1,0 +1,371 @@
+@font-face {
+	font-family: custom;
+	src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: custom;
+}
+.login-main{
+	width: 100%;
+	height: 100vh;
+	background: url('/images/background.png') rgba(6, 66, 131, 0.8);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.main-heading{
+	width: 310px;
+	display: flex;
+	flex: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-heading img{
+	width: 100%;
+}
+.login{
+	width: 30%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	border-radius: 2px;
+	margin-top: 50px;
+	border: 1px solid white;
+	overflow: hidden;
+}
+.btns{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.btn{
+	width: 50%;
+	height: 100%;
+	font-size: 15px;
+	font-weight: 700;
+	font-style: normal;
+}
+.btn a{
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-left: 1px solid rgba(255,255,255,1);
+	background: #0D2D8C;
+}
+.loginBtn a{
+	border-left: none;
+}
+.inputs{
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: #FFFF;
+}
+.in{
+	position: relative;
+	width: 90%;
+	height: 50px;
+	display: flex;
+	margin-top: 15px;
+}
+.in input{
+	width: 100%;
+	outline: none;
+	border: none;
+	padding-left: 10px;
+	font-size: 11px;
+	border-radius: 2px;
+	background: #f7f1f7;
+}
+.in .icon{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 8px;
+	top: 11px;
+}
+.icon img{
+	width: 100%;
+}
+.bottomBtns{
+	width: 90%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.bottomBtn{
+	width: 90px;
+	height: 100%;
+	display: flex;
+}
+.bottomBtn a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	font-size: 12px;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+	background: #0D2D8C;
+}
+.bottomText a{
+	margin-top: -2px;
+	display: block;
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+.logo{
+	width: 150px;
+	margin-top: 60px;
+}
+.section2{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: #eee;
+	margin-bottom: 15px;
+}
+.style{
+	height: 65%;
+	display: flex;
+}
+.style img{
+	width: 100%;
+}
+.texts{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.commonSec{
+	margin-left: 30px;
+}
+.menuText p{
+	color: #0D2D8C;
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.menuText ul li{
+	list-style: none;
+	font-size: 12px;
+	line-height: 19px;
+	font-weight: 600;
+}
+.politicas p{
+	color: #0D2D8C;
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.politicas ul li{
+	list-style: none;
+	font-size: 12px;
+	line-height: 19px;
+	font-weight: 600;
+}
+.mob{
+	display: none;
+}
+.redesSociales p{
+	color: #0D2D8C;
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.socialIcons{
+	width: 170px;
+}
+.socialIcons img{
+	width: 100%;
+}
+.flags{
+	width: 75%;
+	display: flex;
+	padding: 5px;
+	margin: auto;
+}
+.flags img{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #0D2D8C;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footerText{
+	font-size: 10px;
+	margin-top: -5px;
+	color: white;
+}
+.visa{
+	width: 300px;
+}
+.visa img{
+	width: 100%;
+}
+@media screen and (max-width: 850px){
+	.login{
+		width: 40%;
+   }
+	.login-main{
+		width: 100%;
+		height: 100%;
+   }
+	.main-heading{
+		margin-top: 50px;
+		width: 250px;
+   }
+	.section2{
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		background: #fff;
+   }
+	.style{
+		width: 35%;
+		margin-top: 20px;
+   }
+	.texts{
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+   }
+	.menuText{
+		display: none;
+   }
+	.redesSociales{
+		width: 90%;
+		text-align: center;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: -4px;
+		align-items: center;
+   }
+	.redesSociales p{
+		font-size: 18px;
+		margin-bottom: 20px;
+   }
+	.socialIcons{
+		width: 180px;
+   }
+	.politicas{
+		display: none;
+   }
+	.mob{
+		width: 100%;
+		display: block;
+		margin-top: 20px;
+		order: 2;
+   }
+	.mob ul li{
+		font-size: 14px;
+		text-align: center;
+   }
+	.mob p{
+		font-size: 18px;
+		margin-bottom: 20px;
+		text-align: center;
+   }
+	.flags{
+		width: 90%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+   }
+	.footer{
+		height: 100%;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+   }
+	.footer .visa{
+		width: 250px;
+		margin-top: 10px;
+   }
+	.footer .footerText{
+		order: 2;
+		margin-top: 10px;
+		text-align: center;
+		margin-bottom: 20px;
+   }
+}
+@media screen and (max-width: 640px){
+	.login{
+		width: 55%;
+   }
+	.main-heading{
+		margin-top: 50px;
+		width: 250px;
+   }
+}
+@media screen and (max-width: 460px){
+	.login{
+		width: 75%;
+   }
+	.main-heading{
+		margin-top: 50px;
+		width: 55%;
+   }
+	.logo{
+		margin-bottom: 25px;
+	   width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+   }
+	.logo p{
+		font-size: 12px;
+		font-weight: 400;
+   }
+}
+@media screen and (max-width: 410px){
+	.mob ul li{
+		font-size: 12px;
+   }
+}
+@media screen and (max-width: 350px){
+	.login{
+		width: 95%;
+   }
+	.main-heading{
+		margin-top: 50px;
+		width: 55%;
+   }
+}
+@media screen and (max-width: 340px){
+	.mob ul li{
+		font-size: 9px;
+   }
+}
